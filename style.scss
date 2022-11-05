@@ -1,9 +1,12 @@
+//Variables
 $white: hsl(0, 0%, 100%);
 $light_gray: hsl(212, 45%, 89%);
 $grayish_blue: hsl(220, 15%, 55%);
 $dark_blue: hsl(218, 44%, 22%);
 $footer_blue: hsl(228, 45%, 44%);
+//Variables
 
+//BASIC
 * {
     box-sizing: border-box;
     margin: 0;
@@ -27,12 +30,13 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 footer {
     position: absolute;
     top: 97vh;
 }
+//BASIC
 
+//BEM
 .container {
     width: 325px;
     height: 500px;
@@ -69,3 +73,4 @@ footer {
         color: $footer_blue;
     }
 }
+//BEM
