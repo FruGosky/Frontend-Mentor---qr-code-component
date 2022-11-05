@@ -9,12 +9,13 @@ $footer_blue: hsl(228, 45%, 44%);
     margin: 0;
     padding: 0;
 }
-
+html {
+    font-size: 15px;
+}
 img {
     width: 100%;
     border-radius: 15px;
 }
-
 body {
     width: 100vw;
     height: 100vh;
@@ -27,20 +28,42 @@ body {
     justify-content: center;
 }
 
+footer {
+    position: absolute;
+    top: 97vh;
+}
+
 .container {
     width: 325px;
-    height: 70vh;
+    height: 500px;
     background-color: $white;
     border-radius: 25px;
     padding: 12.5px;
+    box-shadow: 0 0 3px $grayish_blue;
 
     &__qr-foto {
         width: 300px;
     }
 }
+.qr-text {
+    margin: 1.5em 1.2em;
+    text-align: center;
 
+    &__title{
+        font-weight: 700;
+        color: $dark_blue;
+        font-size: 0.7rem;
+    }
+
+    &__text{
+        margin-top: 1.3em;
+        font-weight: 400;
+        color: $grayish_blue;
+        font-size: 1rem;
+    }
+}
 .attribution {
-    font-size: 11px;
+    font-size: 0.73rem;
     text-align: center;
     a {
         color: $footer_blue;
