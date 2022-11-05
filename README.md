@@ -1,7 +1,7 @@
 # Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [https://frugosky.github.io/Qr-code-component/](https://frugosky.github.io/Qr-code-component/)
+- Solution URL: [https://www.frontendmentor.io/solutions/frugoskyqrcodecomponent-giuIF-60uL](https://www.frontendmentor.io/solutions/frugoskyqrcodecomponent-giuIF-60uL)
 
 ## Frontend Mentor - QR code component solution
 
@@ -18,3 +18,4 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Flexbox
 - SCSS
 - Mobile-first workflow
+- BEM
